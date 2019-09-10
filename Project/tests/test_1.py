@@ -1,6 +1,5 @@
 from Project.configure.conftest import ConfTest
-import unittest
-import HtmlTestRunner
+
 
 
 class TestSteam(ConfTest):
@@ -24,7 +23,3 @@ class TestSteam(ConfTest):
         self.download.click_install_again()
         self.download.check_file_and_close_page()
 
-
-if __name__ == '__main__':
-    unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(
-        output=r'C:\Users\Pasha\PycharmProjects\test_python_task_3.1\Project\reports'))

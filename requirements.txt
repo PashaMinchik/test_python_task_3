@@ -1,3 +1,4 @@
+HtmlTestRunner
 pytest==4.4.0
 selenium==3.141.0
 webdriver-manager==1.8.2
